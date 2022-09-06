@@ -2,7 +2,7 @@
 // e um booleano que responda se a pessoa está cursando alguma faculdade.
 let idade = prompt("Qual sua idade?")
 let isNoEnsinoMedio = confirm("Terminou o ensino médio?")
-let isCursandoFaculdade = confirm("Esta cursando outra faculdade?")
+let isCursandoFaculdade 
 
 // Crie um if que imprima que a afirmacão é verdadeira, e um else para imprimir que a afirmacão não é verdadeira:
 // Se a pessoa tem 18 anos ou mais;
@@ -15,6 +15,7 @@ if (idade >= 18) {
 // Se a pessoa terminou o ensino médio;
 if (isNoEnsinoMedio) {
     console.log("Terminou o ensino médio");
+    isCursandoFaculdade = confirm("Esta cursando faculdade?")
 } else {
     console.log("Não terminou o ensino médio");
 }
